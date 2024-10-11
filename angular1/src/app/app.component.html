@@ -1,0 +1,14 @@
+
+<div>
+    <p>{{value}}</p>
+</div>
+<div>
+    <button (click)="incre()">+</button>
+    <button (click)="decre()">-</button>
+    <button (click)="reset()">reset</button>
+    <input type="text" disabled="true" [placeholder]="title"/>
+    <input type="text" [(ngModel)]="value"/>
+   <span><button (click)="fromChild()">CLickMe to get from child -->{{checkChild}}</button></span>
+</div>
+
+<app-child (sai)="get($event)" ></app-child>

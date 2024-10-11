@@ -1,0 +1,31 @@
+
+
+
+
+button{
+    color:red;
+    height: 30px;
+    width: auto;
+
+}
+p{
+    background-color: rgba(3, 3, 3, 0.6);
+    text-align: center;
+    font-size:xx-large;
+    color:red;
+    height: 30px;
+    width: 100px;
+    box-shadow: 5px 5px 5px blue;
+}
+input{
+    display: block;
+    color:blue;
+    background-color: aliceblue;
+    height: 30px;
+}
+i1{
+    color:red;
+    background-color: whitesmoke;
+    height: 50px;
+    
+}
