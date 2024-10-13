@@ -1,0 +1,20 @@
+<h1>App Module</h1>
+<div class="main">
+  <div class="receipee" *ngFor="let receipe of recipes">
+    <img src={{receipe.image}} alt={{receipe.id}}/>
+    <div>
+      <h1>{{receipe.name}}</h1>
+    <div class="ingredients">
+      <h2 style="background-color: rgba(0,0,0,0.8);">Ingrediants: </h2>
+      <div *ngFor="let i of receipe.ingredients" >
+        <h3>{{i}}  ,</h3>
+        
+      </div>
+      <span [(ngModel)]="id">
+      
+      </span>
+      <button (click)="cart()">Add To Cart</button>
+    </div>
+    </div>
+  </div>
+</div>
